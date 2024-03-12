@@ -19,7 +19,12 @@ background-color: cover;
 
 wrapper{
   width:420px;
-  background: purple;
+  /* 벡그라운드 투명 */
+  background color : transparent; 
+  /* 보더  */
+    border:2px solid rgba ;
+    backdrop-filter:blur(20px);
+    box-shadow :0 0 10px rgba
   color: #fff;
   border-radius: :10px;
   padding:30px 40px;
