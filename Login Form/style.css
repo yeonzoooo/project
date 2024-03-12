@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
+/* 별 선택자는 모든 태그에 적용 : 초기화! */
 * {
   margin: 0;
   padding: 0;
