@@ -13,7 +13,8 @@ dicsply : flex;
 justify-content:center;
 align-items: center;
 height: 100vh;
-background-color: seagreen;
+background :url('images/bg.jpg') no-repeat center;
+background-color: cover;
 }
 
 wrapper{
