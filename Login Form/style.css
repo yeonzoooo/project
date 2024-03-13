@@ -42,7 +42,7 @@ wrapper{
     }
       input-box input {
         width:100%
-        height: 100%
+        height : 100%
         background: transparent;
         border:none;
         outline:none;
@@ -79,6 +79,7 @@ wrapper{
      remember-forgot label input {
       accent-color:#fff
       text-decoration: none;
+     }
 
       remember-forgot a {
         color:#fff
@@ -99,7 +100,27 @@ wrapper{
         cursor : pointer;
         font: size 16px;
         color: #333;
+        font-weight:600;
+      }
 
+      wrapper.register-link{
+        font-size:14.5px;
+        text-align: center;
+        margin: 20px 15px;
+      }
+       
+      register-link p a {
+        color : #fff;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      registere -link p a: hover{
+        text-decoration: underline;
+      }
+
+    
+ 
 
 
 
