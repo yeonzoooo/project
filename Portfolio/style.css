@@ -33,6 +33,19 @@ logo{
 
 }
 
+logo :: before {
+    content: '';
+    position : acsolute;
+    top: 0;
+    right: 0;
+    width : 100%
+    height : 100%;
+    background-color: #081b29
+    animation: showright 1s ease forwards;
+    animation-delay : 0.4s;
+
+}
+
 narbar a {
     font-size:18px;
     color:#ededed;
@@ -50,6 +63,8 @@ narbar a active {
 
 /* 여기서부터 홈섹션 */
 home {
+    background: url (imes/home.jpg) no-repeat;
+    back 
     height: 100vh;
     display:flex;
     align-items:baseline
@@ -76,6 +91,7 @@ home-content h3{
 }
 
 <div class="btn-box">
+
 <a href=  "#"> 고용하기</a>
 <a href = "#" 연락하기</a>
 </div>
@@ -85,6 +101,24 @@ home-content h3{
 <a href = "#"> <i class = "bx bxl - twitter "></i><a>
 <a href = "#"> <i class = "bx bxl - linkedin"></i><a>
 </div>
+
+<span class= "home--imghover"></span>
+
+home- imghover {
+    position: absolute;
+    top:0;
+    right: 30px;
+    width:40px;
+    height:100%
+    background-color : transparent;
+    /* border:2px  solid red; */
+    transition:3s;
+}
+
+home-imghover:hover {
+    background - color :#081b29;
+    opacity:0.7;
+}
 
 home-content. btn-box {
     display:flex;
@@ -131,5 +165,49 @@ btn-box a ::before{
 btn-box a:hover::before {
     width :100%;
 
+    btn-box a :hover {
+        color : #ededed;
+    }
+
 
 }
+
+@keyframes showright {
+    /* 최종 가로길이를 0으로 만드는 애니메이션 */
+    100% {
+        width:0;
+    }
+}
+
+home-content h1 :: before {
+    content: '';
+    position : acsolute;
+    top: 0;
+    right: 0;
+    width : 100%
+    height : 100%;
+    background-color:#yellow
+    animation: showright 1s ease forwards;
+    animation-delay : 1.3s;
+}
+home-content h3 :: before {
+    content: '';
+    position : relative;
+    top: 0;
+    right: 0;
+    width : 100%
+    height : 100%;
+    background-color:#yellow
+    animation: showright 1s ease forwards;
+    animation-delay : 1.3s;
+}
+home-content p :: before {
+    content: '';
+    position : relative;
+    top: 0;
+    right: 0;
+    width : 100%
+    height : 100%;
+    background-color:#yellow
+    animation: showright 1s ease forwards;
+    animation-delay : 1.6s;
